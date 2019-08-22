@@ -1,0 +1,25 @@
+{
+  "name": "hdwallet-babyjub",
+  "version": "0.0.1",
+  "description": "HD wallet for BabyJubJub curve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snjax/hdwallet-babyjub.git"
+  },
+  "author": "Igor Gulamov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/snjax/hdwallet-babyjub/issues"
+  },
+  "homepage": "https://github.com/snjax/hdwallet-babyjub#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bigint-buffer": "^1.1.2",
+    "bip39": "^3.0.2",
+    "circomlib": "0.0.12"
+  }
+}
