@@ -20,6 +20,6 @@
     "assert": "^2.0.0",
     "bigint-buffer": "^1.1.2",
     "bip39": "^3.0.2",
-    "circomlib": "0.0.12"
+    "circomlib": "github:zeropoolnetwork/circomlib#master"
   }
 }
