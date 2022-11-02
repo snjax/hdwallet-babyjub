@@ -1,6 +1,6 @@
 {
   "name": "hdwallet-babyjub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HD wallet for BabyJubJub curve",
   "main": "index.js",
   "scripts": {

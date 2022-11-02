@@ -133,7 +133,7 @@ function MasterKey(S) {
 function parseIndexes(path) {
   const steps = path.split('/');
   assert(steps[0] == "m", "Wrong path: path must be beginning from 'm'");
-  const indexes = steps.slice(1).map(step => parseInt(step) + (step.slice(-1) === '\'') ? 0x80000000 : 0);
+  const indexes = steps.slice(1).map(step => parseInt(step) + ((step.slice(-1) === '\'') ? 0x80000000 : 0));
   assert(!indexes.includes(NaN), "Wrong path: not a number inside the path");
   return indexes;
 }
